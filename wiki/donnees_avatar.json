@@ -1,0 +1,10 @@
+{
+	"batchcomplete": "",
+	"query": {
+		"userinfo": {
+			"id": 1,
+			"name": "Foxkiki",
+			"pass": "123"
+		}
+	}
+}

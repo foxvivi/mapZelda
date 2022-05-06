@@ -1,0 +1,1330 @@
+<!DOCTYPE html>
+<html class="fontawesome-i2svg-active fontawesome-i2svg-complete"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Breath of the Wild Interactive Map</title>
+    <meta name="description" content="Interactive, searchable map of Hyrule with locations, descriptions, guides, and more.">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <style type="text/css">svg:not(:root).svg-inline--fa {
+  overflow: visible; }
+
+.svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -.125em; }
+  .svg-inline--fa.fa-lg {
+    vertical-align: -.225em; }
+  .svg-inline--fa.fa-w-1 {
+    width: 0.0625em; }
+  .svg-inline--fa.fa-w-2 {
+    width: 0.125em; }
+  .svg-inline--fa.fa-w-3 {
+    width: 0.1875em; }
+  .svg-inline--fa.fa-w-4 {
+    width: 0.25em; }
+  .svg-inline--fa.fa-w-5 {
+    width: 0.3125em; }
+  .svg-inline--fa.fa-w-6 {
+    width: 0.375em; }
+  .svg-inline--fa.fa-w-7 {
+    width: 0.4375em; }
+  .svg-inline--fa.fa-w-8 {
+    width: 0.5em; }
+  .svg-inline--fa.fa-w-9 {
+    width: 0.5625em; }
+  .svg-inline--fa.fa-w-10 {
+    width: 0.625em; }
+  .svg-inline--fa.fa-w-11 {
+    width: 0.6875em; }
+  .svg-inline--fa.fa-w-12 {
+    width: 0.75em; }
+  .svg-inline--fa.fa-w-13 {
+    width: 0.8125em; }
+  .svg-inline--fa.fa-w-14 {
+    width: 0.875em; }
+  .svg-inline--fa.fa-w-15 {
+    width: 0.9375em; }
+  .svg-inline--fa.fa-w-16 {
+    width: 1em; }
+  .svg-inline--fa.fa-w-17 {
+    width: 1.0625em; }
+  .svg-inline--fa.fa-w-18 {
+    width: 1.125em; }
+  .svg-inline--fa.fa-w-19 {
+    width: 1.1875em; }
+  .svg-inline--fa.fa-w-20 {
+    width: 1.25em; }
+  .svg-inline--fa.fa-pull-left {
+    margin-right: .3em;
+    width: auto; }
+  .svg-inline--fa.fa-pull-right {
+    margin-left: .3em;
+    width: auto; }
+  .svg-inline--fa.fa-border {
+    height: 1.5em; }
+  .svg-inline--fa.fa-li {
+    width: 2em; }
+  .svg-inline--fa.fa-fw {
+    width: 1.25em; }
+
+.fa-layers svg.svg-inline--fa {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.fa-layers {
+  display: inline-block;
+  height: 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: -.125em;
+  width: 1em; }
+  .fa-layers svg.svg-inline--fa {
+    -webkit-transform-origin: center center;
+            transform-origin: center center; }
+
+.fa-layers-text, .fa-layers-counter {
+  display: inline-block;
+  position: absolute;
+  text-align: center; }
+
+.fa-layers-text {
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transform-origin: center center;
+          transform-origin: center center; }
+
+.fa-layers-counter {
+  background-color: #ff253a;
+  border-radius: 1em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+  height: 1.5em;
+  line-height: 1;
+  max-width: 5em;
+  min-width: 1.5em;
+  overflow: hidden;
+  padding: .25em;
+  right: 0;
+  text-overflow: ellipsis;
+  top: 0;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: top right;
+          transform-origin: top right; }
+
+.fa-layers-bottom-right {
+  bottom: 0;
+  right: 0;
+  top: auto;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right; }
+
+.fa-layers-bottom-left {
+  bottom: 0;
+  left: 0;
+  right: auto;
+  top: auto;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left; }
+
+.fa-layers-top-right {
+  right: 0;
+  top: 0;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: top right;
+          transform-origin: top right; }
+
+.fa-layers-top-left {
+  left: 0;
+  right: auto;
+  top: 0;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: top left;
+          transform-origin: top left; }
+
+.fa-lg {
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -.0667em; }
+
+.fa-xs {
+  font-size: .75em; }
+
+.fa-sm {
+  font-size: .875em; }
+
+.fa-1x {
+  font-size: 1em; }
+
+.fa-2x {
+  font-size: 2em; }
+
+.fa-3x {
+  font-size: 3em; }
+
+.fa-4x {
+  font-size: 4em; }
+
+.fa-5x {
+  font-size: 5em; }
+
+.fa-6x {
+  font-size: 6em; }
+
+.fa-7x {
+  font-size: 7em; }
+
+.fa-8x {
+  font-size: 8em; }
+
+.fa-9x {
+  font-size: 9em; }
+
+.fa-10x {
+  font-size: 10em; }
+
+.fa-fw {
+  text-align: center;
+  width: 1.25em; }
+
+.fa-ul {
+  list-style-type: none;
+  margin-left: 2.5em;
+  padding-left: 0; }
+  .fa-ul > li {
+    position: relative; }
+
+.fa-li {
+  left: -2em;
+  position: absolute;
+  text-align: center;
+  width: 2em;
+  line-height: inherit; }
+
+.fa-border {
+  border: solid 0.08em #eee;
+  border-radius: .1em;
+  padding: .2em .25em .15em; }
+
+.fa-pull-left {
+  float: left; }
+
+.fa-pull-right {
+  float: right; }
+
+.fa.fa-pull-left,
+.fas.fa-pull-left,
+.far.fa-pull-left,
+.fal.fa-pull-left,
+.fab.fa-pull-left {
+  margin-right: .3em; }
+
+.fa.fa-pull-right,
+.fas.fa-pull-right,
+.far.fa-pull-right,
+.fal.fa-pull-right,
+.fab.fa-pull-right {
+  margin-left: .3em; }
+
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+          animation: fa-spin 2s infinite linear; }
+
+.fa-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+          animation: fa-spin 1s infinite steps(8); }
+
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+.fa-rotate-90 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg); }
+
+.fa-rotate-180 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg); }
+
+.fa-rotate-270 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg); }
+
+.fa-flip-horizontal {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1); }
+
+.fa-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(1, -1);
+          transform: scale(1, -1); }
+
+.fa-flip-horizontal.fa-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(-1, -1);
+          transform: scale(-1, -1); }
+
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical {
+  -webkit-filter: none;
+          filter: none; }
+
+.fa-stack {
+  display: inline-block;
+  height: 2em;
+  position: relative;
+  width: 2em; }
+
+.fa-stack-1x,
+.fa-stack-2x {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.svg-inline--fa.fa-stack-1x {
+  height: 1em;
+  width: 1em; }
+
+.svg-inline--fa.fa-stack-2x {
+  height: 2em;
+  width: 2em; }
+
+.fa-inverse {
+  color: #fff; }
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+.sr-only-focusable:active, .sr-only-focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto; }
+</style><style type="text/css">.leaflet-control-window-wrapper {
+  display: none;
+  opacity: 0;
+  -webkit-overflow-scrolling: touch;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.nonmodal {
+  z-index: 6000; }
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 7000;
+  background-color: rgba(0, 0, 0, 0.7); }
+
+.visible {
+  display: block;
+  opacity: 1; }
+
+.leaflet-control-window {
+  position: absolute;
+  z-index: 2000;
+  border-radius: 2px;
+  margin: 8px;
+  /** BOX SHADOW **/
+  -webkit-box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.75); }
+
+.control-window {
+  background-color: #ffffff;
+  color: #353535;
+  font: 14px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif; }
+
+.leaflet-control-window .titlebar {
+  min-height: 38px;
+  cursor: grab;
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  padding: 10px 45px 10px 10px; }
+
+.leaflet-control-window .close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 28px;
+  height: 28px;
+  border-radius: 100%;
+  font: 16px/14px Tahoma, Verdana, sans-serif;
+  cursor: pointer;
+  z-index: 30;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition-property: background;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  color: #e4e4e4;
+  font-size: 22pt;
+  text-align: center;
+  line-height: 0.9em; }
+
+.leaflet-control-window .close:hover {
+  background-color: rgba(0, 0, 0, 0.65); }
+
+.leaflet-control-window .content {
+  padding: 8px;
+  margin-top: -10px;
+  z-index: 29;
+  overflow: auto; }
+
+.leaflet-control-window .promptButtons {
+  text-align: right;
+  padding: 16px; }
+
+.leaflet-control-window button {
+  position: relative;
+  display: inline-block;
+  background-color: transparent;
+  color: inherit;
+  opacity: 0.5;
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  cursor: pointer;
+  font-size: medium;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  border: 0;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  padding: 8px;
+  margin: 12px 8px 0 8px; }
+
+.leaflet-control-window button:focus {
+  outline: 0; }
+
+.leaflet-control-window button:hover {
+  opacity: 1; }
+
+.disabled {
+  opacity: .5;
+  pointer-events: none; }
+</style><style type="text/css">/* required styles */
+
+.leaflet-pane,
+.leaflet-tile,
+.leaflet-marker-icon,
+.leaflet-marker-shadow,
+.leaflet-tile-container,
+.leaflet-pane > svg,
+.leaflet-pane > canvas,
+.leaflet-zoom-box,
+.leaflet-image-layer,
+.leaflet-layer {
+	position: absolute;
+	left: 0;
+	top: 0;
+	}
+.leaflet-container {
+	overflow: hidden;
+	}
+.leaflet-tile,
+.leaflet-marker-icon,
+.leaflet-marker-shadow {
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	        user-select: none;
+	  -webkit-user-drag: none;
+	}
+/* Safari renders non-retina tile on retina better with this, but Chrome is worse */
+.leaflet-safari .leaflet-tile {
+	image-rendering: -webkit-optimize-contrast;
+	}
+/* hack that prevents hw layers "stretching" when loading new tiles */
+.leaflet-safari .leaflet-tile-container {
+	width: 1600px;
+	height: 1600px;
+	-webkit-transform-origin: 0 0;
+	}
+.leaflet-marker-icon,
+.leaflet-marker-shadow {
+	display: block;
+	}
+/* .leaflet-container svg: reset svg max-width decleration shipped in Joomla! (joomla.org) 3.x */
+/* .leaflet-container img: map is broken in FF if you have max-width: 100% on tiles */
+.leaflet-container .leaflet-overlay-pane svg,
+.leaflet-container .leaflet-marker-pane img,
+.leaflet-container .leaflet-shadow-pane img,
+.leaflet-container .leaflet-tile-pane img,
+.leaflet-container img.leaflet-image-layer {
+	max-width: none !important;
+	max-height: none !important;
+	}
+
+.leaflet-container.leaflet-touch-zoom {
+	-ms-touch-action: pan-x pan-y;
+	touch-action: pan-x pan-y;
+	}
+.leaflet-container.leaflet-touch-drag {
+	-ms-touch-action: pinch-zoom;
+	/* Fallback for FF which doesn't support pinch-zoom */
+	touch-action: none;
+	touch-action: pinch-zoom;
+}
+.leaflet-container.leaflet-touch-drag.leaflet-touch-zoom {
+	-ms-touch-action: none;
+	touch-action: none;
+}
+.leaflet-container {
+	-webkit-tap-highlight-color: transparent;
+}
+.leaflet-container a {
+	-webkit-tap-highlight-color: rgba(51, 181, 229, 0.4);
+}
+.leaflet-tile {
+	filter: inherit;
+	visibility: hidden;
+	}
+.leaflet-tile-loaded {
+	visibility: inherit;
+	}
+.leaflet-zoom-box {
+	width: 0;
+	height: 0;
+	-moz-box-sizing: border-box;
+	     box-sizing: border-box;
+	z-index: 800;
+	}
+/* workaround for https://bugzilla.mozilla.org/show_bug.cgi?id=888319 */
+.leaflet-overlay-pane svg {
+	-moz-user-select: none;
+	}
+
+.leaflet-pane         { z-index: 400; }
+
+.leaflet-tile-pane    { z-index: 200; }
+.leaflet-overlay-pane { z-index: 400; }
+.leaflet-shadow-pane  { z-index: 500; }
+.leaflet-marker-pane  { z-index: 600; }
+.leaflet-tooltip-pane   { z-index: 650; }
+.leaflet-popup-pane   { z-index: 700; }
+
+.leaflet-map-pane canvas { z-index: 100; }
+.leaflet-map-pane svg    { z-index: 200; }
+
+.leaflet-vml-shape {
+	width: 1px;
+	height: 1px;
+	}
+.lvml {
+	behavior: url(#default#VML);
+	display: inline-block;
+	position: absolute;
+	}
+
+
+/* control positioning */
+
+.leaflet-control {
+	position: relative;
+	z-index: 800;
+	pointer-events: visiblePainted; /* IE 9-10 doesn't have auto */
+	pointer-events: auto;
+	}
+.leaflet-top,
+.leaflet-bottom {
+	position: absolute;
+	z-index: 1000;
+	pointer-events: none;
+	}
+.leaflet-top {
+	top: 0;
+	}
+.leaflet-right {
+	right: 0;
+	}
+.leaflet-bottom {
+	bottom: 0;
+	}
+.leaflet-left {
+	left: 0;
+	}
+.leaflet-control {
+	float: left;
+	clear: both;
+	}
+.leaflet-right .leaflet-control {
+	float: right;
+	}
+.leaflet-top .leaflet-control {
+	margin-top: 10px;
+	}
+.leaflet-bottom .leaflet-control {
+	margin-bottom: 10px;
+	}
+.leaflet-left .leaflet-control {
+	margin-left: 10px;
+	}
+.leaflet-right .leaflet-control {
+	margin-right: 10px;
+	}
+
+
+/* zoom and fade animations */
+
+.leaflet-fade-anim .leaflet-tile {
+	will-change: opacity;
+	}
+.leaflet-fade-anim .leaflet-popup {
+	opacity: 0;
+	-webkit-transition: opacity 0.2s linear;
+	   -moz-transition: opacity 0.2s linear;
+	     -o-transition: opacity 0.2s linear;
+	        transition: opacity 0.2s linear;
+	}
+.leaflet-fade-anim .leaflet-map-pane .leaflet-popup {
+	opacity: 1;
+	}
+.leaflet-zoom-animated {
+	-webkit-transform-origin: 0 0;
+	    -ms-transform-origin: 0 0;
+	        transform-origin: 0 0;
+	}
+.leaflet-zoom-anim .leaflet-zoom-animated {
+	will-change: transform;
+	}
+.leaflet-zoom-anim .leaflet-zoom-animated {
+	-webkit-transition: -webkit-transform 0.25s cubic-bezier(0,0,0.25,1);
+	   -moz-transition:    -moz-transform 0.25s cubic-bezier(0,0,0.25,1);
+	     -o-transition:      -o-transform 0.25s cubic-bezier(0,0,0.25,1);
+	        transition:         transform 0.25s cubic-bezier(0,0,0.25,1);
+	}
+.leaflet-zoom-anim .leaflet-tile,
+.leaflet-pan-anim .leaflet-tile {
+	-webkit-transition: none;
+	   -moz-transition: none;
+	     -o-transition: none;
+	        transition: none;
+	}
+
+.leaflet-zoom-anim .leaflet-zoom-hide {
+	visibility: hidden;
+	}
+
+
+/* cursors */
+
+.leaflet-interactive {
+	cursor: pointer;
+	}
+.leaflet-grab {
+	cursor: -webkit-grab;
+	cursor:    -moz-grab;
+	}
+.leaflet-crosshair,
+.leaflet-crosshair .leaflet-interactive {
+	cursor: crosshair;
+	}
+.leaflet-popup-pane,
+.leaflet-control {
+	cursor: auto;
+	}
+.leaflet-dragging .leaflet-grab,
+.leaflet-dragging .leaflet-grab .leaflet-interactive,
+.leaflet-dragging .leaflet-marker-draggable {
+	cursor: move;
+	cursor: -webkit-grabbing;
+	cursor:    -moz-grabbing;
+	}
+
+/* marker & overlays interactivity */
+.leaflet-marker-icon,
+.leaflet-marker-shadow,
+.leaflet-image-layer,
+.leaflet-pane > svg path,
+.leaflet-tile-container {
+	pointer-events: none;
+	}
+
+.leaflet-marker-icon.leaflet-interactive,
+.leaflet-image-layer.leaflet-interactive,
+.leaflet-pane > svg path.leaflet-interactive {
+	pointer-events: visiblePainted; /* IE 9-10 doesn't have auto */
+	pointer-events: auto;
+	}
+
+/* visual tweaks */
+
+.leaflet-container {
+	background: #ddd;
+	outline: 0;
+	}
+.leaflet-container a {
+	color: #0078A8;
+	}
+.leaflet-container a.leaflet-active {
+	outline: 2px solid orange;
+	}
+.leaflet-zoom-box {
+	border: 2px dotted #38f;
+	background: rgba(255,255,255,0.5);
+	}
+
+
+/* general typography */
+.leaflet-container {
+	font: 12px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+	}
+
+
+/* general toolbar styles */
+
+.leaflet-bar {
+	box-shadow: 0 1px 5px rgba(0,0,0,0.65);
+	border-radius: 4px;
+	}
+.leaflet-bar a,
+.leaflet-bar a:hover {
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+	width: 26px;
+	height: 26px;
+	line-height: 26px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	}
+.leaflet-bar a,
+.leaflet-control-layers-toggle {
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	display: block;
+	}
+.leaflet-bar a:hover {
+	background-color: #f4f4f4;
+	}
+.leaflet-bar a:first-child {
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	}
+.leaflet-bar a:last-child {
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom: none;
+	}
+.leaflet-bar a.leaflet-disabled {
+	cursor: default;
+	background-color: #f4f4f4;
+	color: #bbb;
+	}
+
+.leaflet-touch .leaflet-bar a {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	}
+.leaflet-touch .leaflet-bar a:first-child {
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	}
+.leaflet-touch .leaflet-bar a:last-child {
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+	}
+
+/* zoom control */
+
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+	font: bold 18px 'Lucida Console', Monaco, monospace;
+	text-indent: 1px;
+	}
+
+.leaflet-touch .leaflet-control-zoom-in, .leaflet-touch .leaflet-control-zoom-out  {
+	font-size: 22px;
+	}
+
+
+/* layers control */
+
+.leaflet-control-layers {
+	box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+	background: #fff;
+	border-radius: 5px;
+	}
+.leaflet-control-layers-toggle {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAQAAAADQ4RFAAACf0lEQVR4AY1UM3gkARTePdvdoTxXKc+qTl3aU5U6b2Kbkz3Gtq3Zw6ziLGNPzrYx7946Tr6/ee/XeCQ4D3ykPtL5tHno4n0d/h3+xfuWHGLX81cn7r0iTNzjr7LrlxCqPtkbTQEHeqOrTy4Yyt3VCi/IOB0v7rVC7q45Q3Gr5K6jt+3Gl5nCoDD4MtO+j96Wu8atmhGqcNGHObuf8OM/x3AMx38+4Z2sPqzCxRFK2aF2e5Jol56XTLyggAMTL56XOMoS1W4pOyjUcGGQdZxU6qRh7B9Zp+PfpOFlqt0zyDZckPi1ttmIp03jX8gyJ8a/PG2yutpS/Vol7peZIbZcKBAEEheEIAgFbDkz5H6Zrkm2hVWGiXKiF4Ycw0RWKdtC16Q7qe3X4iOMxruonzegJzWaXFrU9utOSsLUmrc0YjeWYjCW4PDMADElpJSSQ0vQvA1Tm6/JlKnqFs1EGyZiFCqnRZTEJJJiKRYzVYzJck2Rm6P4iH+cmSY0YzimYa8l0EtTODFWhcMIMVqdsI2uiTvKmTisIDHJ3od5GILVhBCarCfVRmo4uTjkhrhzkiBV7SsaqS+TzrzM1qpGGUFt28pIySQHR6h7F6KSwGWm97ay+Z+ZqMcEjEWebE7wxCSQwpkhJqoZA5ivCdZDjJepuJ9IQjGGUmuXJdBFUygxVqVsxFsLMbDe8ZbDYVCGKxs+W080max1hFCarCfV+C1KATwcnvE9gRRuMP2prdbWGowm1KB1y+zwMMENkM755cJ2yPDtqhTI6ED1M/82yIDtC/4j4BijjeObflpO9I9MwXTCsSX8jWAFeHr05WoLTJ5G8IQVS/7vwR6ohirYM7f6HzYpogfS3R2OAAAAAElFTkSuQmCC);
+	width: 36px;
+	height: 36px;
+	}
+.leaflet-retina .leaflet-control-layers-toggle {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAQAAABvcdNgAAAEsklEQVR4AWL4TydIhpZK1kpWOlg0w3ZXP6D2soBtG42jeI6ZmQTHzAxiTbSJsYLjO9HhP+WOmcuhciVnmHVQcJnp7DFvScowZorad/+V/fVzMdMT2g9Cv9guXGv/7pYOrXh2U+RRR3dSd9JRx6bIFc/ekqHI29JC6pJ5ZEh1yWkhkbcFeSjxgx3L2m1cb1C7bceyxA+CNjT/Ifff+/kDk2u/w/33/IeCMOSaWZ4glosqT3DNnNZQ7Cs58/3Ce5HL78iZH/vKVIaYlqzfdLu8Vi7dnvUbEza5Idt36tquZFldl6N5Z/POLof0XLK61mZCmJSWjVF9tEjUluu74IUXvgttuVIHE7YxSkaYhJZam7yiM9Pv82JYfl9nptxZaxMJE4YSPty+vF0+Y2up9d3wwijfjZbabqm/3bZ9ecKHsiGmRflnn1MW4pjHf9oLufyn2z3y1D6n8g8TZhxyzipLNPnAUpsOiuWimg52psrTZYnOWYNDTMuWBWa0tJb4rgq1UvmutpaYEbZlwU3CLJm/ayYjHW5/h7xWLn9Hh1vepDkyf7dE7MtT5LR4e7yYpHrkhOUpEfssBLq2pPhAqoSWKUkk7EDqkmK6RrCEzqDjhNDWNE+XSMvkJRDWlZTmCW0l0PHQGRZY5t1L83kT0Y3l2SItk5JAWHl2dCOBm+fPu3fo5/3v61RMCO9Jx2EEYYhb0rmNQMX/vm7gqOEJLcXTGw3CAuRNeyaPWwjR8PRqKQ1PDA/dpv+on9Shox52WFnx0KY8onHayrJzm87i5h9xGw/tfkev0jGsQizqezUKjk12hBMKJ4kbCqGPVNXudyyrShovGw5CgxsRICxF6aRmSjlBnHRzg7Gx8fKqEubI2rahQYdR1YgDIRQO7JvQyD52hoIQx0mxa0ODtW2Iozn1le2iIRdzwWewedyZzewidueOGqlsn1MvcnQpuVwLGG3/IR1hIKxCjelIDZ8ldqWz25jWAsnldEnK0Zxro19TGVb2ffIZEsIO89EIEDvKMPrzmBOQcKQ+rroye6NgRRxqR4U8EAkz0CL6uSGOm6KQCdWjvjRiSP1BPalCRS5iQYiEIvxuBMJEWgzSoHADcVMuN7IuqqTeyUPq22qFimFtxDyBBJEwNyt6TM88blFHao/6tWWhuuOM4SAK4EI4QmFHA+SEyWlp4EQoJ13cYGzMu7yszEIBOm2rVmHUNqwAIQabISNMRstmdhNWcFLsSm+0tjJH1MdRxO5Nx0WDMhCtgD6OKgZeljJqJKc9po8juskR9XN0Y1lZ3mWjLR9JCO1jRDMd0fpYC2VnvjBSEFg7wBENc0R9HFlb0xvF1+TBEpF68d+DHR6IOWVv2BECtxo46hOFUBd/APU57WIoEwJhIi2CdpyZX0m93BZicktMj1AS9dClteUFAUNUIEygRZCtik5zSxI9MubTBH1GOiHsiLJ3OCoSZkILa9PxiN0EbvhsAo8tdAf9Seepd36lGWHmtNANTv5Jd0z4QYyeo/UEJqxKRpg5LZx6btLPsOaEmdMyxYdlc8LMaJnikDlhclqmPiQnTEpLUIZEwkRagjYkEibQErwhkTAKCLQEbUgkzJQWc/0PstHHcfEdQ+UAAAAASUVORK5CYII=);
+	background-size: 26px 26px;
+	}
+.leaflet-touch .leaflet-control-layers-toggle {
+	width: 44px;
+	height: 44px;
+	}
+.leaflet-control-layers .leaflet-control-layers-list,
+.leaflet-control-layers-expanded .leaflet-control-layers-toggle {
+	display: none;
+	}
+.leaflet-control-layers-expanded .leaflet-control-layers-list {
+	display: block;
+	position: relative;
+	}
+.leaflet-control-layers-expanded {
+	padding: 6px 10px 6px 6px;
+	color: #333;
+	background: #fff;
+	}
+.leaflet-control-layers-scrollbar {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	padding-right: 5px;
+	}
+.leaflet-control-layers-selector {
+	margin-top: 2px;
+	position: relative;
+	top: 1px;
+	}
+.leaflet-control-layers label {
+	display: block;
+	}
+.leaflet-control-layers-separator {
+	height: 0;
+	border-top: 1px solid #ddd;
+	margin: 5px -10px 5px -6px;
+	}
+
+/* Default icon URLs */
+.leaflet-default-icon-path {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAApCAYAAADAk4LOAAAFgUlEQVR4Aa1XA5BjWRTN2oW17d3YaZtr2962HUzbDNpjszW24mRt28p47v7zq/bXZtrp/lWnXr337j3nPCe85NcypgSFdugCpW5YoDAMRaIMqRi6aKq5E3YqDQO3qAwjVWrD8Ncq/RBpykd8oZUb/kaJutow8r1aP9II0WmLKLIsJyv1w/kqw9Ch2MYdB++12Onxee/QMwvf4/Dk/Lfp/i4nxTXtOoQ4pW5Aj7wpici1A9erdAN2OH64x8OSP9j3Ft3b7aWkTg/Fm91siTra0f9on5sQr9INejH6CUUUpavjFNq1B+Oadhxmnfa8RfEmN8VNAsQhPqF55xHkMzz3jSmChWU6f7/XZKNH+9+hBLOHYozuKQPxyMPUKkrX/K0uWnfFaJGS1QPRtZsOPtr3NsW0uyh6NNCOkU3Yz+bXbT3I8G3xE5EXLXtCXbbqwCO9zPQYPRTZ5vIDXD7U+w7rFDEoUUf7ibHIR4y6bLVPXrz8JVZEql13trxwue/uDivd3fkWRbS6/IA2bID4uk0UpF1N8qLlbBlXs4Ee7HLTfV1j54APvODnSfOWBqtKVvjgLKzF5YdEk5ewRkGlK0i33Eofffc7HT56jD7/6U+qH3Cx7SBLNntH5YIPvODnyfIXZYRVDPqgHtLs5ABHD3YzLuespb7t79FY34DjMwrVrcTuwlT55YMPvOBnRrJ4VXTdNnYug5ucHLBjEpt30701A3Ts+HEa73u6dT3FNWwflY86eMHPk+Yu+i6pzUpRrW7SNDg5JHR4KapmM5Wv2E8Tfcb1HoqqHMHU+uWDD7zg54mz5/2BSnizi9T1Dg4QQXLToGNCkb6tb1NU+QAlGr1++eADrzhn/u8Q2YZhQVlZ5+CAOtqfbhmaUCS1ezNFVm2imDbPmPng5wmz+gwh+oHDce0eUtQ6OGDIyR0uUhUsoO3vfDmmgOezH0mZN59x7MBi++WDL1g/eEiU3avlidO671bkLfwbw5XV2P8Pzo0ydy4t2/0eu33xYSOMOD8hTf4CrBtGMSoXfPLchX+J0ruSePw3LZeK0juPJbYzrhkH0io7B3k164hiGvawhOKMLkrQLyVpZg8rHFW7E2uHOL888IBPlNZ1FPzstSJM694fWr6RwpvcJK60+0HCILTBzZLFNdtAzJaohze60T8qBzyh5ZuOg5e7uwQppofEmf2++DYvmySqGBuKaicF1blQjhuHdvCIMvp8whTTfZzI7RldpwtSzL+F1+wkdZ2TBOW2gIF88PBTzD/gpeREAMEbxnJcaJHNHrpzji0gQCS6hdkEeYt9DF/2qPcEC8RM28Hwmr3sdNyht00byAut2k3gufWNtgtOEOFGUwcXWNDbdNbpgBGxEvKkOQsxivJx33iow0Vw5S6SVTrpVq11ysA2Rp7gTfPfktc6zhtXBBC+adRLshf6sG2RfHPZ5EAc4sVZ83yCN00Fk/4kggu40ZTvIEm5g24qtU4KjBrx/BTTH8ifVASAG7gKrnWxJDcU7x8X6Ecczhm3o6YicvsLXWfh3Ch1W0k8x0nXF+0fFxgt4phz8QvypiwCCFKMqXCnqXExjq10beH+UUA7+nG6mdG/Pu0f3LgFcGrl2s0kNNjpmoJ9o4B29CMO8dMT4Q5ox8uitF6fqsrJOr8qnwNbRzv6hSnG5wP+64C7h9lp30hKNtKdWjtdkbuPA19nJ7Tz3zR/ibgARbhb4AlhavcBebmTHcFl2fvYEnW0ox9xMxKBS8btJ+KiEbq9zA4RthQXDhPa0T9TEe69gWupwc6uBUphquXgf+/FrIjweHQS4/pduMe5ERUMHUd9xv8ZR98CxkS4F2n3EUrUZ10EYNw7BWm9x1GiPssi3GgiGRDKWRYZfXlON+dfNbM+GgIwYdwAAAAASUVORK5CYII=);
+	}
+
+
+/* attribution and scale controls */
+
+.leaflet-container .leaflet-control-attribution {
+	background: #fff;
+	background: rgba(255, 255, 255, 0.7);
+	margin: 0;
+	}
+.leaflet-control-attribution,
+.leaflet-control-scale-line {
+	padding: 0 5px;
+	color: #333;
+	}
+.leaflet-control-attribution a {
+	text-decoration: none;
+	}
+.leaflet-control-attribution a:hover {
+	text-decoration: underline;
+	}
+.leaflet-container .leaflet-control-attribution,
+.leaflet-container .leaflet-control-scale {
+	font-size: 11px;
+	}
+.leaflet-left .leaflet-control-scale {
+	margin-left: 5px;
+	}
+.leaflet-bottom .leaflet-control-scale {
+	margin-bottom: 5px;
+	}
+.leaflet-control-scale-line {
+	border: 2px solid #777;
+	border-top: none;
+	line-height: 1.1;
+	padding: 2px 5px 1px;
+	font-size: 11px;
+	white-space: nowrap;
+	overflow: hidden;
+	-moz-box-sizing: border-box;
+	     box-sizing: border-box;
+
+	background: #fff;
+	background: rgba(255, 255, 255, 0.5);
+	}
+.leaflet-control-scale-line:not(:first-child) {
+	border-top: 2px solid #777;
+	border-bottom: none;
+	margin-top: -2px;
+	}
+.leaflet-control-scale-line:not(:first-child):not(:last-child) {
+	border-bottom: 2px solid #777;
+	}
+
+.leaflet-touch .leaflet-control-attribution,
+.leaflet-touch .leaflet-control-layers,
+.leaflet-touch .leaflet-bar {
+	box-shadow: none;
+	}
+.leaflet-touch .leaflet-control-layers,
+.leaflet-touch .leaflet-bar {
+	border: 2px solid rgba(0,0,0,0.2);
+	background-clip: padding-box;
+	}
+
+
+/* popup */
+
+.leaflet-popup {
+	position: absolute;
+	text-align: center;
+	margin-bottom: 20px;
+	}
+.leaflet-popup-content-wrapper {
+	padding: 1px;
+	text-align: left;
+	border-radius: 12px;
+	}
+.leaflet-popup-content {
+	margin: 13px 19px;
+	line-height: 1.4;
+	}
+.leaflet-popup-content p {
+	margin: 18px 0;
+	}
+.leaflet-popup-tip-container {
+	width: 40px;
+	height: 20px;
+	position: absolute;
+	left: 50%;
+	margin-left: -20px;
+	overflow: hidden;
+	pointer-events: none;
+	}
+.leaflet-popup-tip {
+	width: 17px;
+	height: 17px;
+	padding: 1px;
+
+	margin: -10px auto 0;
+
+	-webkit-transform: rotate(45deg);
+	   -moz-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	     -o-transform: rotate(45deg);
+	        transform: rotate(45deg);
+	}
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+	background: white;
+	color: #333;
+	box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+	}
+.leaflet-container a.leaflet-popup-close-button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 4px 4px 0 0;
+	border: none;
+	text-align: center;
+	width: 18px;
+	height: 14px;
+	font: 16px/14px Tahoma, Verdana, sans-serif;
+	color: #c3c3c3;
+	text-decoration: none;
+	font-weight: bold;
+	background: transparent;
+	}
+.leaflet-container a.leaflet-popup-close-button:hover {
+	color: #999;
+	}
+.leaflet-popup-scrolled {
+	overflow: auto;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	}
+
+.leaflet-oldie .leaflet-popup-content-wrapper {
+	zoom: 1;
+	}
+.leaflet-oldie .leaflet-popup-tip {
+	width: 24px;
+	margin: 0 auto;
+
+	-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.70710678, M12=0.70710678, M21=-0.70710678, M22=0.70710678)";
+	filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.70710678, M12=0.70710678, M21=-0.70710678, M22=0.70710678);
+	}
+.leaflet-oldie .leaflet-popup-tip-container {
+	margin-top: -1px;
+	}
+
+.leaflet-oldie .leaflet-control-zoom,
+.leaflet-oldie .leaflet-control-layers,
+.leaflet-oldie .leaflet-popup-content-wrapper,
+.leaflet-oldie .leaflet-popup-tip {
+	border: 1px solid #999;
+	}
+
+
+/* div icon */
+
+.leaflet-div-icon {
+	background: #fff;
+	border: 1px solid #666;
+	}
+
+
+/* Tooltip */
+/* Base styles for the element that has a tooltip */
+.leaflet-tooltip {
+	position: absolute;
+	padding: 6px;
+	background-color: #fff;
+	border: 1px solid #fff;
+	border-radius: 3px;
+	color: #222;
+	white-space: nowrap;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	pointer-events: none;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+	}
+.leaflet-tooltip.leaflet-clickable {
+	cursor: pointer;
+	pointer-events: auto;
+	}
+.leaflet-tooltip-top:before,
+.leaflet-tooltip-bottom:before,
+.leaflet-tooltip-left:before,
+.leaflet-tooltip-right:before {
+	position: absolute;
+	pointer-events: none;
+	border: 6px solid transparent;
+	background: transparent;
+	content: "";
+	}
+
+/* Directions */
+
+.leaflet-tooltip-bottom {
+	margin-top: 6px;
+}
+.leaflet-tooltip-top {
+	margin-top: -6px;
+}
+.leaflet-tooltip-bottom:before,
+.leaflet-tooltip-top:before {
+	left: 50%;
+	margin-left: -6px;
+	}
+.leaflet-tooltip-top:before {
+	bottom: 0;
+	margin-bottom: -12px;
+	border-top-color: #fff;
+	}
+.leaflet-tooltip-bottom:before {
+	top: 0;
+	margin-top: -12px;
+	margin-left: -6px;
+	border-bottom-color: #fff;
+	}
+.leaflet-tooltip-left {
+	margin-left: -6px;
+}
+.leaflet-tooltip-right {
+	margin-left: 6px;
+}
+.leaflet-tooltip-left:before,
+.leaflet-tooltip-right:before {
+	top: 50%;
+	margin-top: -6px;
+	}
+.leaflet-tooltip-left:before {
+	right: 0;
+	margin-right: -12px;
+	border-left-color: #fff;
+	}
+.leaflet-tooltip-right:before {
+	left: 0;
+	margin-left: -12px;
+	border-right-color: #fff;
+	}
+</style><style type="text/css">html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%; }
+
+#map {
+  width: 100%;
+  height: 100%; }
+
+.leaflet-container {
+  background: #000000; }
+
+/* CONTROLS */
+.selectable {
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: background-color .2s; }
+
+.selected {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 1px solid white; }
+
+.zd-control {
+  position: relative; }
+
+.leaflet-bar a,
+.leaflet-bar a:hover,
+.zd-control__button,
+.zd-control__content,
+.zd-legend {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white; }
+
+.leaflet-bar a.leaflet-disabled {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #bbb;
+  cursor: default; }
+
+.zd-control__button {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 22px;
+  text-align: center;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  background-clip: padding-box;
+  cursor: pointer; }
+
+.zd-control__content, .zd-legend {
+  font-size: 1.5em; }
+
+.zd-control__content {
+  position: absolute;
+  top: 0;
+  left: 34px;
+  width: 0;
+  overflow: hidden;
+  transition: width .2s; }
+
+.zd-control__content--open {
+  width: 300px; }
+
+.zd-search__searchbox {
+  box-sizing: border-box;
+  height: 34px;
+  width: 100%;
+  font-size: inherit; }
+
+.zd-search__results {
+  list-style: none;
+  margin: auto;
+  padding: 0; }
+
+.zd-search__result {
+  cursor: pointer;
+  padding-left: 50px;
+  background-repeat: no-repeat; }
+
+.zd-search__result + .zd-search__result {
+  border-top: 1px solid gray; }
+
+.zd-settings__setting {
+  height: 30px; }
+
+.zd-settings__label {
+  text-align: left; }
+
+.zd-settings__button {
+  width: 50px;
+  text-align: center; }
+
+/* LEGEND */
+.leaflet-top.leaflet-right {
+  height: 100%; }
+
+.leaflet-bottom.leaflet-right {
+  width: 100%;
+  max-height: 40%; }
+
+.leaflet-right .zd-legend {
+  margin-right: 0; }
+
+.leaflet-top .zd-legend {
+  margin-top: 0; }
+
+.leaflet-bottom .zd-legend {
+  margin-bottom: 0; }
+
+.zd-legend--portrait {
+  width: 100%;
+  text-align: center;
+  overflow: hidden; }
+
+.zd-legend--landscape {
+  display: none;
+  height: 100%;
+  width: 210px;
+  overflow: auto; }
+
+@media screen and (orientation: landscape) and (min-width: 768px) {
+  .zd-legend--landscape {
+    display: flex; }
+  .zd-legend--portrait {
+    display: none; } }
+
+.zd-legend__header {
+  margin: 0;
+  width: 100%; }
+
+.zd-legend__categories {
+  list-style: none;
+  margin: auto;
+  padding: 5px; }
+
+.zd-legend--portrait .zd-legend__categories {
+  padding: 0px;
+  height: 0px;
+  overflow: scroll;
+  transition: height .2s; }
+
+.zd-legend--portrait .zd-legend__categories--show {
+  height: 190px; }
+
+.zd-legend--portrait li {
+  display: inline-block;
+  width: 180px;
+  box-sizing: border-box;
+  text-align: left; }
+
+.zd-legend__all, .zd-legend__none, .zd-legend__category {
+  height: 30px; }
+
+.zd-legend__all, .zd-legend__none {
+  display: inline-block;
+  width: 50%;
+  text-align: center; }
+
+.zd-legend__category {
+  /*    margin: -10px 0;
+    padding: 5px 0;*/
+  padding-left: 50px;
+  background-repeat: no-repeat; }
+
+/* LOCATION TEXT LABELS */
+.leaflet-tooltip-pane {
+  z-index: 550;
+  /* put location text labels underneath markers */ }
+
+.leaflet-tooltip.zd-location-label {
+  background-color: transparent;
+  border: transparent;
+  box-shadow: none; }
+
+.zd-map-botw .leaflet-tooltip.zd-location-label {
+  font-size: 24px;
+  color: #f8efae;
+  text-shadow: -2px -2px 0 #977f41, -2px -1px 0 #977f41, -2px 0px 0 #977f41, -2px 1px 0 #977f41, -2px 2px 0 #977f41, -1px -2px 0 #977f41, -1px -1px 0 #977f41, -1px 0px 0 #977f41, -1px 1px 0 #977f41, -1px 2px 0 #977f41, 0px -2px 0 #977f41, 0px -1px 0 #977f41, 0px 0px 0 #977f41, 0px 1px 0 #977f41, 0px 2px 0 #977f41, 1px -2px 0 #977f41, 1px -1px 0 #977f41, 1px 0px 0 #977f41, 1px 1px 0 #977f41, 1px 2px 0 #977f41, 2px -2px 0 #977f41, 2px -1px 0 #977f41, 2px 0px 0 #977f41, 2px 1px 0 #977f41, 2px 2px 0 #977f41; }
+
+.zd-map-la .leaflet-tooltip.zd-location-label {
+  font-size: 18px;
+  font-style: italic;
+  color: #fff6e6; }
+
+/* POPUPS */
+.zd-popup__loading-indicator {
+  text-align: center; }
+
+.zd-popup__controls {
+  text-align: center;
+  font-size: 18px; }
+
+.zd-popup__controls .zd-popup__control {
+  color: #b5b5b5; }
+
+.zd-popup__controls .zd-popup__control:hover {
+  color: #7f7f7f;
+  cursor: pointer; }
+
+.zd-popup__control + .zd-popup__control {
+  margin-left: 18px; }
+
+.zd-popup__control--uncomplete {
+  display: none; }
+
+.zd-popup__controls--completed .zd-popup__control--complete {
+  display: none; }
+
+.zd-popup__controls--completed .zd-popup__control--uncomplete {
+  display: inline-block;
+  margin-left: 0; }
+
+.zd-popup__controls--noedit .zd-popup__control--edit {
+  display: none; }
+
+.internal-link {
+  border-bottom: 1px dashed black;
+  cursor: pointer; }
+
+.zd-popup li.gallerybox {
+  display: block; }
+</style></head>
+  <body>
+    <div id="map" class="leaflet-container leaflet-touch leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom zd-map-botw" style="position: relative;" tabindex="0"><div class="leaflet-pane leaflet-map-pane" style="transform: translate3d(0px, 0px, 0px);"><div class="leaflet-pane leaflet-tile-pane"><div class="leaflet-layer " style="z-index: 1; opacity: 1;"><div class="leaflet-tile-container leaflet-zoom-animated" style="z-index: 5; transform: translate3d(0px, 0px, 0px) scale(1);"><img alt="" role="presentation" src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/3_4.jpg" class="leaflet-tile leaflet-tile-loaded" style="width: 750px; height: 750px; transform: translate3d(292px, -734px, 0px); opacity: 1;"><img alt="" role="presentation" src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/3_5.jpg" class="leaflet-tile leaflet-tile-loaded" style="width: 750px; height: 750px; transform: translate3d(292px, 16px, 0px); opacity: 1;"><img alt="" role="presentation" src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/2_4.jpg" class="leaflet-tile leaflet-tile-loaded" style="width: 750px; height: 750px; transform: translate3d(-458px, -734px, 0px); opacity: 1;"><img alt="" role="presentation" src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/4_4.jpg" class="leaflet-tile leaflet-tile-loaded" style="width: 750px; height: 750px; transform: translate3d(1042px, -734px, 0px); opacity: 1;"><img alt="" role="presentation" src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/2_5.jpg" class="leaflet-tile leaflet-tile-loaded" style="width: 750px; height: 750px; transform: translate3d(-458px, 16px, 0px); opacity: 1;"><img alt="" role="presentation" src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/4_5.jpg" class="leaflet-tile leaflet-tile-loaded" style="width: 750px; height: 750px; transform: translate3d(1042px, 16px, 0px); opacity: 1;"></div></div></div><div class="leaflet-pane leaflet-shadow-pane"></div><div class="leaflet-pane leaflet-overlay-pane"><svg pointer-events="none" class="leaflet-zoom-animated" width="1361" height="490" style="transform: translate3d(-113px, -41px, 0px);" viewBox="-113 -41 1361 490"><g><path class="leaflet-interactive" stroke="#ffffff" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M559 80L553 83L552 89L543 97"></path><path class="leaflet-interactive" stroke="#ffffff" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M0 0"></path><path class="leaflet-interactive" stroke="#ffffff" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M0 0"></path><path class="leaflet-interactive" stroke="#ffffff" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M0 0"></path><path class="leaflet-interactive" stroke="#ffffff" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M0 0"></path><path class="leaflet-interactive" stroke="#ffffff" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M0 0"></path><path class="leaflet-interactive" stroke="#ffffff" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M0 0"></path><path class="leaflet-interactive" stroke="#ffffff" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M0 0"></path><path class="leaflet-interactive" stroke="#ffffff" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M0 0"></path><path class="leaflet-interactive" stroke="#ffffff" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M0 0"></path><path class="leaflet-interactive" stroke="#ffffff" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M3 449L-10 415"></path><path class="leaflet-interactive" stroke="#ffffff" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M0 0"></path><path class="leaflet-interactive" stroke="#ffffff" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M0 0"></path><path class="leaflet-interactive" stroke="#ffffff" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M1242 342L1231 342L1221 348L1200 347"></path><path class="leaflet-interactive" stroke="#ffffff" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M0 0"></path><path class="leaflet-interactive" stroke="#ffffff" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M0 0"></path></g></svg></div><div class="leaflet-pane leaflet-marker-pane"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/tower.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -14px; margin-top: -19.5px; width: 28px; height: 39px; transform: translate3d(648px, -513px, 0px); z-index: -513;" title="Central Tower" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/shrine.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -13.5px; width: 26px; height: 27px; transform: translate3d(559px, -374px, 0px); z-index: -374;" title="Kaam Ya'tak Shrine" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/stable.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(317px, -99px, 0px); z-index: -99;" title="Outskirt Stable" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/memory.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(702px, -122px, 0px); z-index: -122;" title="Recovered Memory #3 - Resolve and Grief (Picture 2)" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/talus.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -15px; width: 26px; height: 30px; transform: translate3d(785px, -143px, 0px); z-index: -143;" title="Stone Talus (Luminous)" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/hinox.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(454px, -675px, 0px); z-index: -675;" title="Black Hinox" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/lynel.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -14.5px; margin-top: -15px; width: 29px; height: 30px; transform: translate3d(469px, -96px, 0px); z-index: -96;" title="Silver Lynel" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/raft.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13.5px; margin-top: -15px; width: 27px; height: 30px; transform: translate3d(331px, -647px, 0px); z-index: -647;" title="Raft" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/raft.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13.5px; margin-top: -15px; width: 27px; height: 30px; transform: translate3d(419px, -320px, 0px); z-index: -320;" title="Raft" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/pot.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -13.5px; width: 30px; height: 27px; transform: translate3d(321px, -107px, 0px); z-index: -107;" title="Cooking Pot" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/pot.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -13.5px; width: 30px; height: 27px; transform: translate3d(366px, -350px, 0px); z-index: -350;" title="Cooking Pot" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/pot.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -13.5px; width: 30px; height: 27px; transform: translate3d(601px, -626px, 0px); z-index: -626;" title="Cooking Pot" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/pot.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -13.5px; width: 30px; height: 27px; transform: translate3d(883px, -91px, 0px); z-index: -91;" title="Cooking Pot" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/pot.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -13.5px; width: 30px; height: 27px; transform: translate3d(983px, -148px, 0px); z-index: -148;" title="Cooking Pot" alt="" tabindex="0"><div class="leaflet-marker-icon zd-void-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -6px; margin-top: -6px; width: 12px; height: 12px; transform: translate3d(804px, -436px, 0px); z-index: -436;" title="Hyrule Field" tabindex="0"></div><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/shrine.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -13.5px; width: 26px; height: 27px; transform: translate3d(1468px, -314px, 0px); z-index: -314;" title="Hila Rao Shrine" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/shrine.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -13.5px; width: 26px; height: 27px; transform: translate3d(1456px, -640px, 0px); z-index: -640;" title="Kaya Wan Shrine" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/shrine.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -13.5px; width: 26px; height: 27px; transform: translate3d(1216px, -229px, 0px); z-index: -229;" title="Wahgo Katta Shrine" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/stable.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(1212px, -186px, 0px); z-index: -186;" title="Riverside Stable" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/stable.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(1486px, -647px, 0px); z-index: -647;" title="Wetland Stable" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/memory.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1392px, -517px, 0px); z-index: -517;" title="Recovered Memory #16 - Despair (Picture 12)" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/talus.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -15px; width: 26px; height: 30px; transform: translate3d(1775px, -69px, 0px); z-index: -69;" title="Stone Talus" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/talus.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -15px; width: 26px; height: 30px; transform: translate3d(1395px, 2px, 0px); z-index: 2;" title="Stone Talus" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/hinox.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(1253px, -569px, 0px); z-index: -569;" title="Blue Hinox" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/raft.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13.5px; margin-top: -15px; width: 27px; height: 30px; transform: translate3d(1246px, -189px, 0px); z-index: -189;" title="Raft" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/raft.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13.5px; margin-top: -15px; width: 27px; height: 30px; transform: translate3d(1446px, -319px, 0px); z-index: -319;" title="Raft" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/pot.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -13.5px; width: 30px; height: 27px; transform: translate3d(1201px, -184px, 0px); z-index: -184;" title="Cooking Pot" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/pot.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -13.5px; width: 30px; height: 27px; transform: translate3d(1353px, -694px, 0px); z-index: -694;" title="Cooking Pot" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/pot.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -13.5px; width: 30px; height: 27px; transform: translate3d(1479px, -651px, 0px); z-index: -651;" title="Cooking Pot" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/pot.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -13.5px; width: 30px; height: 27px; transform: translate3d(1563px, -591px, 0px); z-index: -591;" title="Cooking Pot" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/tower.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -14px; margin-top: -19.5px; width: 28px; height: 39px; transform: translate3d(762px, 114px, 0px); z-index: 114;" title="Great Plateau Tower" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/tower.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -14px; margin-top: -19.5px; width: 28px; height: 39px; transform: translate3d(1026px, 747px, 0px); z-index: 747;" title="Lake Tower" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/shrine.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -13.5px; width: 26px; height: 27px; transform: translate3d(817px, 261px, 0px); z-index: 261;" title="Ja Baij Shrine" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/shrine.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -13.5px; width: 26px; height: 27px; transform: translate3d(580px, 425px, 0px); z-index: 425;" title="Owa Daim Shrine" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/shrine.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -13.5px; width: 26px; height: 27px; transform: translate3d(326px, 261px, 0px); z-index: 261;" title="Keh Namut Shrine" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/shrine.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -13.5px; width: 26px; height: 27px; transform: translate3d(707px, 24px, 0px); z-index: 24;" title="Oman Au Shrine" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/shrine.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -13.5px; width: 26px; height: 27px; transform: translate3d(876px, 566px, 0px); z-index: 566;" title="Ya Naga Shrine" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/shrine_resurrection.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13.5px; margin-top: -13px; width: 27px; height: 26px; transform: translate3d(491px, 206px, 0px); z-index: 206;" title="Shrine of Resurrection" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/shrine_dlc.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13.5px; margin-top: -13px; width: 27px; height: 26px; transform: translate3d(434px, 321px, 0px); z-index: 321;" title="Etsu Korima Shrine (DLC)" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/shrine_dlc.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13.5px; margin-top: -13px; width: 27px; height: 26px; transform: translate3d(784px, 165px, 0px); z-index: 165;" title="Rohta Chigah Shrine (DLC)" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/shrine_dlc.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13.5px; margin-top: -13px; width: 27px; height: 26px; transform: translate3d(572px, 102px, 0px); z-index: 102;" title="Yowaka Ita Shrine (DLC)" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/shrine_dlc.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13.5px; margin-top: -13px; width: 27px; height: 26px; transform: translate3d(625px, 339px, 0px); z-index: 339;" title="Ruvo Korbah Shrine (DLC)" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/memory.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(530px, 166px, 0px); z-index: 166;" title="EX Recovered Memory #5 - The Champions' Ballad" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/talus.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -15px; width: 26px; height: 30px; transform: translate3d(498px, 98px, 0px); z-index: 98;" title="Stone Talus" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/talus.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -15px; width: 26px; height: 30px; transform: translate3d(954px, 152px, 0px); z-index: 152;" title="Stone Talus (Luminous)" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/statue.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -12px; margin-top: -15px; width: 24px; height: 30px; transform: translate3d(631px, 282px, 0px); z-index: 282;" title="Goddess Statue" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/raft.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13.5px; margin-top: -15px; width: 27px; height: 30px; transform: translate3d(501px, 291px, 0px); z-index: 291;" title="Raft" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/raft.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13.5px; margin-top: -15px; width: 27px; height: 30px; transform: translate3d(844px, 584px, 0px); z-index: 584;" title="Raft" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/raft.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13.5px; margin-top: -15px; width: 27px; height: 30px; transform: translate3d(935px, 421px, 0px); z-index: 421;" title="Raft" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/pot.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -13.5px; width: 30px; height: 27px; transform: translate3d(311px, 151px, 0px); z-index: 151;" title="Cooking Pot" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/pot.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -13.5px; width: 30px; height: 27px; transform: translate3d(403px, 103px, 0px); z-index: 103;" title="Cooking Pot" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/pot.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -13.5px; width: 30px; height: 27px; transform: translate3d(524px, 267px, 0px); z-index: 267;" title="Cooking Pot" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/pot.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -13.5px; width: 30px; height: 27px; transform: translate3d(564px, 246px, 0px); z-index: 246;" title="Cooking Pot" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/pot.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -13.5px; width: 30px; height: 27px; transform: translate3d(591px, 105px, 0px); z-index: 105;" title="Cooking Pot" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/pot.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -13.5px; width: 30px; height: 27px; transform: translate3d(640px, 398px, 0px); z-index: 398;" title="Cooking Pot" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/pot.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -13.5px; width: 30px; height: 27px; transform: translate3d(760px, 62px, 0px); z-index: 62;" title="Cooking Pot" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/pot.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -13.5px; width: 30px; height: 27px; transform: translate3d(1019px, 758px, 0px); z-index: 758;" title="Cooking Pot" alt="" tabindex="0"><div class="leaflet-marker-icon zd-void-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -6px; margin-top: -6px; width: 12px; height: 12px; transform: translate3d(967px, 526px, 0px); z-index: 526;" title="Lake Hylia" tabindex="0"></div><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/shrine.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -13.5px; width: 26px; height: 27px; transform: translate3d(262px, -79px, 0px); z-index: -79;" title="Rota Ooh Shrine" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/shrine.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -13.5px; width: 26px; height: 27px; transform: translate3d(-107px, -502px, 0px); z-index: -502;" title="Mogg Latan Shrine" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/shrine.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -13.5px; width: 26px; height: 27px; transform: translate3d(97px, -689px, 0px); z-index: -689;" title="Sheem Dagoze Shrine" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/shrine.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -13.5px; width: 26px; height: 27px; transform: translate3d(-331px, -622px, 0px); z-index: -622;" title="Mijah Rokee Shrine" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/memory.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(236px, -390px, 0px); z-index: -390;" title="Recovered Memory #14 - To Mount Lanayru (Picture 10)" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/talus.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -15px; width: 26px; height: 30px; transform: translate3d(-418px, -87px, 0px); z-index: -87;" title="Frost Talus" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/hinox.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(-66px, -442px, 0px); z-index: -442;" title="Stalnox" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/raft.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13.5px; margin-top: -15px; width: 27px; height: 30px; transform: translate3d(-87px, -689px, 0px); z-index: -689;" title="Raft" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/pot.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -13.5px; width: 30px; height: 27px; transform: translate3d(-328px, -517px, 0px); z-index: -517;" title="Cooking Pot" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/pot.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -13.5px; width: 30px; height: 27px; transform: translate3d(21px, -584px, 0px); z-index: -584;" title="Cooking Pot" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(559px, 80px, 0px); z-index: 80;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-82px, -502px, 0px); z-index: -502;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(447px, -176px, 0px); z-index: -176;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(465px, -611px, 0px); z-index: -611;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1036px, 557px, 0px); z-index: 557;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-45px, -502px, 0px); z-index: -502;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(737px, 461px, 0px); z-index: 461;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(721px, -295px, 0px); z-index: -295;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(597px, 211px, 0px); z-index: 211;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(565px, 127px, 0px); z-index: 127;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(351px, 197px, 0px); z-index: 197;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(361px, 376px, 0px); z-index: 376;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(321px, 319px, 0px); z-index: 319;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(475px, 227px, 0px); z-index: 227;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(455px, 426px, 0px); z-index: 426;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(444px, 429px, 0px); z-index: 429;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(638px, 249px, 0px); z-index: 249;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(648px, 397px, 0px); z-index: 397;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(828px, 277px, 0px); z-index: 277;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(831px, 263px, 0px); z-index: 263;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(618px, 101px, 0px); z-index: 101;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(657px, 55px, 0px); z-index: 55;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(632px, 41px, 0px); z-index: 41;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(373px, 105px, 0px); z-index: 105;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(716px, -40px, 0px); z-index: -40;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(205px, -34px, 0px); z-index: -34;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(360px, -152px, 0px); z-index: -152;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(430px, -55px, 0px); z-index: -55;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(295px, 181px, 0px); z-index: 181;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(530px, -454px, 0px); z-index: -454;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(812px, -96px, 0px); z-index: -96;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1356px, -643px, 0px); z-index: -643;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1235px, -668px, 0px); z-index: -668;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(991px, 417px, 0px); z-index: 417;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1562px, -75px, 0px); z-index: -75;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1023px, 523px, 0px); z-index: 523;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(946px, 183px, 0px); z-index: 183;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(989px, -209px, 0px); z-index: -209;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(667px, -287px, 0px); z-index: -287;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1199px, -34px, 0px); z-index: -34;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1209px, -96px, 0px); z-index: -96;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1300px, 8px, 0px); z-index: 8;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1376px, 0px, 0px); z-index: 0;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1435px, 1px, 0px); z-index: 1;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1189px, -128px, 0px); z-index: -128;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(170px, 1px, 0px); z-index: 1;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(396px, -40px, 0px); z-index: -40;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(384px, -103px, 0px); z-index: -103;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(466px, -124px, 0px); z-index: -124;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(514px, -66px, 0px); z-index: -66;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(474px, -218px, 0px); z-index: -218;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(463px, -252px, 0px); z-index: -252;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(489px, -283px, 0px); z-index: -283;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(537px, -267px, 0px); z-index: -267;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(290px, -273px, 0px); z-index: -273;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(321px, -311px, 0px); z-index: -311;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(417px, -375px, 0px); z-index: -375;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(385px, -422px, 0px); z-index: -422;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(482px, -524px, 0px); z-index: -524;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(374px, -551px, 0px); z-index: -551;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(374px, -609px, 0px); z-index: -609;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1398px, -68px, 0px); z-index: -68;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1299px, -149px, 0px); z-index: -149;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1689px, -68px, 0px); z-index: -68;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1009px, 432px, 0px); z-index: 432;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(311px, 743px, 0px); z-index: 743;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1523px, -263px, 0px); z-index: -263;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1041px, 573px, 0px); z-index: 573;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(2px, 6px, 0px); z-index: 6;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(680px, -667px, 0px); z-index: -667;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-230px, -414px, 0px); z-index: -414;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-205px, -438px, 0px); z-index: -438;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-197px, -460px, 0px); z-index: -460;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-199px, -482px, 0px); z-index: -482;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-183px, -548px, 0px); z-index: -548;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(292px, -657px, 0px); z-index: -657;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-101px, -499px, 0px); z-index: -499;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(22px, -586px, 0px); z-index: -586;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1596px, -457px, 0px); z-index: -457;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1698px, -482px, 0px); z-index: -482;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1765px, -453px, 0px); z-index: -453;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1760px, -665px, 0px); z-index: -665;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1483px, -597px, 0px); z-index: -597;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(364px, -235px, 0px); z-index: -235;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(608px, -624px, 0px); z-index: -624;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(830px, -658px, 0px); z-index: -658;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-106px, -562px, 0px); z-index: -562;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-58px, -367px, 0px); z-index: -367;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(61px, -530px, 0px); z-index: -530;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(43px, -653px, 0px); z-index: -653;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1008px, 486px, 0px); z-index: 486;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1005px, 474px, 0px); z-index: 474;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1015px, 512px, 0px); z-index: 512;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(842px, 546px, 0px); z-index: 546;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(809px, 720px, 0px); z-index: 720;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(741px, 596px, 0px); z-index: 596;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(510px, 722px, 0px); z-index: 722;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(580px, 736px, 0px); z-index: 736;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(536px, 586px, 0px); z-index: 586;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(436px, 618px, 0px); z-index: 618;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(353px, 638px, 0px); z-index: 638;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(342px, 454px, 0px); z-index: 454;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-219px, -74px, 0px); z-index: -74;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-382px, -119px, 0px); z-index: -119;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-392px, -171px, 0px); z-index: -171;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(112px, -566px, 0px); z-index: -566;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(58px, -435px, 0px); z-index: -435;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(177px, -545px, 0px); z-index: -545;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(16px, -416px, 0px); z-index: -416;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-324px, -354px, 0px); z-index: -354;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-132px, -311px, 0px); z-index: -311;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-282px, -460px, 0px); z-index: -460;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(657px, -44px, 0px); z-index: -44;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-130px, -181px, 0px); z-index: -181;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-7px, -181px, 0px); z-index: -181;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(133px, -246px, 0px); z-index: -246;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(339px, -507px, 0px); z-index: -507;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(829px, -138px, 0px); z-index: -138;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(741px, -198px, 0px); z-index: -198;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1200px, -470px, 0px); z-index: -470;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(56px, -187px, 0px); z-index: -187;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-155px, -213px, 0px); z-index: -213;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-186px, -153px, 0px); z-index: -153;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1154px, -297px, 0px); z-index: -297;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1076px, -15px, 0px); z-index: -15;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(284px, -706px, 0px); z-index: -706;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(675px, -569px, 0px); z-index: -569;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(688px, -681px, 0px); z-index: -681;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(783px, -687px, 0px); z-index: -687;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(860px, -535px, 0px); z-index: -535;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(787px, -457px, 0px); z-index: -457;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(981px, -438px, 0px); z-index: -438;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(977px, -260px, 0px); z-index: -260;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1062px, -217px, 0px); z-index: -217;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-417px, -494px, 0px); z-index: -494;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-413px, -336px, 0px); z-index: -336;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(264px, -326px, 0px); z-index: -326;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(50px, -552px, 0px); z-index: -552;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-115px, -722px, 0px); z-index: -722;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1115px, -584px, 0px); z-index: -584;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1054px, -660px, 0px); z-index: -660;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1441px, -722px, 0px); z-index: -722;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/mainquest.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -25px; margin-top: -15px; width: 50px; height: 30px; transform: translate3d(529px, 171px, 0px); z-index: 171;" title="Follow the Sheikah Slate" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/mainquest.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -25px; margin-top: -15px; width: 50px; height: 30px; transform: translate3d(756px, 115px, 0px); z-index: 115;" title="The Isolated Plateau" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/mainquest.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -25px; margin-top: -15px; width: 50px; height: 30px; transform: translate3d(637px, 248px, 0px); z-index: 248;" title="Destroy Ganon" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/mainquest.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -25px; margin-top: -15px; width: 50px; height: 30px; transform: translate3d(637px, 248px, 0px); z-index: 248;" title="Seek Out Impa" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/mainquest.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -25px; margin-top: -15px; width: 50px; height: 30px; transform: translate3d(487px, 201px, 0px); z-index: 201;" title="EX Champions' Ballad" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/tower.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -14px; margin-top: -19.5px; width: 28px; height: 39px; transform: translate3d(-111px, 485px, 0px); z-index: 485;" title="Wasteland Tower" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/shrine.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -13.5px; width: 26px; height: 27px; transform: translate3d(-304px, 673px, 0px); z-index: 673;" title="Korsh O'hu Shrine" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/shrine.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -13.5px; width: 26px; height: 27px; transform: translate3d(194px, 118px, 0px); z-index: 118;" title="Dah Kaso Shrine" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/shrine.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -13.5px; width: 26px; height: 27px; transform: translate3d(-361px, 416px, 0px); z-index: 416;" title="Kay Noh Shrine" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/shrine.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -13.5px; width: 26px; height: 27px; transform: translate3d(40px, 105px, 0px); z-index: 105;" title="Joloo Nah Shrine" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/shrine.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -13.5px; width: 26px; height: 27px; transform: translate3d(145px, 476px, 0px); z-index: 476;" title="Jee Noh Shrine" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/stable.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(-360px, 379px, 0px); z-index: 379;" title="Gerudo Canyon Stable" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/memory.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(11px, 582px, 0px); z-index: 582;" title="EX Recovered Memory #4 - Champion Urbosa's Song" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/talus.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -15px; width: 26px; height: 30px; transform: translate3d(-407px, 372px, 0px); z-index: 372;" title="Stone Talus (Luminous)" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/talus.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -15px; width: 26px; height: 30px; transform: translate3d(-97px, 256px, 0px); z-index: 256;" title="Stone Talus (Luminous)" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/talus.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -15px; width: 26px; height: 30px; transform: translate3d(94px, 288px, 0px); z-index: 288;" title="Stone Talus (Luminous)" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/hinox.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(190px, 154px, 0px); z-index: 154;" title="Blue Hinox" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/raft.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13.5px; margin-top: -15px; width: 27px; height: 30px; transform: translate3d(188px, 106px, 0px); z-index: 106;" title="Raft" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/pot.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -13.5px; width: 30px; height: 27px; transform: translate3d(-365px, 45px, 0px); z-index: 45;" title="Cooking Pot" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/pot.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -13.5px; width: 30px; height: 27px; transform: translate3d(-364px, 386px, 0px); z-index: 386;" title="Cooking Pot" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/pot.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -13.5px; width: 30px; height: 27px; transform: translate3d(25px, 202px, 0px); z-index: 202;" title="Cooking Pot" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-307px, 319px, 0px); z-index: 319;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-172px, 227px, 0px); z-index: 227;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(9px, 465px, 0px); z-index: 465;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(290px, 228px, 0px); z-index: 228;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(211px, 438px, 0px); z-index: 438;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(137px, 498px, 0px); z-index: 498;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(175px, 177px, 0px); z-index: 177;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(254px, 61px, 0px); z-index: 61;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(145px, 79px, 0px); z-index: 79;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-300px, 731px, 0px); z-index: 731;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-272px, 641px, 0px); z-index: 641;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-108px, 690px, 0px); z-index: 690;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(31px, 706px, 0px); z-index: 706;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(74px, 602px, 0px); z-index: 602;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-87px, 378px, 0px); z-index: 378;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(182px, 386px, 0px); z-index: 386;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-109px, 546px, 0px); z-index: 546;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-255px, 537px, 0px); z-index: 537;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-365px, 390px, 0px); z-index: 390;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(33px, 359px, 0px); z-index: 359;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-89px, 348px, 0px); z-index: 348;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-232px, 287px, 0px); z-index: 287;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-166px, 230px, 0px); z-index: 230;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(214px, 421px, 0px); z-index: 421;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(233px, 489px, 0px); z-index: 489;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-61px, 541px, 0px); z-index: 541;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-137px, 545px, 0px); z-index: 545;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(13px, 474px, 0px); z-index: 474;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-384px, 426px, 0px); z-index: 426;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-189px, 122px, 0px); z-index: 122;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-43px, 305px, 0px); z-index: 305;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(11px, 192px, 0px); z-index: 192;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-365px, 91px, 0px); z-index: 91;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(-282px, 34px, 0px); z-index: 34;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(132px, 33px, 0px); z-index: 33;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/mainquest.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -25px; margin-top: -15px; width: 50px; height: 30px; transform: translate3d(274px, 731px, 0px); z-index: 731;" title="EX Champion Urbosa's Song" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/tower.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -14px; margin-top: -19.5px; width: 28px; height: 39px; transform: translate3d(1551px, 123px, 0px); z-index: 123;" title="Dueling Peaks Tower" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/shrine.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -13.5px; width: 26px; height: 27px; transform: translate3d(1086px, 94px, 0px); z-index: 94;" title="Bosh Kala Shrine" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/shrine.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -13.5px; width: 26px; height: 27px; transform: translate3d(1666px, 192px, 0px); z-index: 192;" title="Shee Venath Shrine" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/shrine.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -13.5px; width: 26px; height: 27px; transform: translate3d(1677px, 235px, 0px); z-index: 235;" title="Shee Vaneer Shrine" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/shrine.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -13.5px; width: 26px; height: 27px; transform: translate3d(1680px, 188px, 0px); z-index: 188;" title="Ree Dahee Shrine" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/shrine.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -13.5px; width: 26px; height: 27px; transform: translate3d(1322px, 763px, 0px); z-index: 763;" title="Pumaag Nitae Shrine" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/shrine.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -13.5px; width: 26px; height: 27px; transform: translate3d(1478px, 432px, 0px); z-index: 432;" title="Shae Katha Shrine" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/memory.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1129px, 234px, 0px); z-index: 234;" title="Recovered Memory #11 - Shelter from the Storm (Picture 7)" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/talus.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -15px; width: 26px; height: 30px; transform: translate3d(1222px, 218px, 0px); z-index: 218;" title="Stone Talus" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/talus.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -15px; width: 26px; height: 30px; transform: translate3d(1671px, 354px, 0px); z-index: 354;" title="Stone Talus (Junior)" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/talus.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13px; margin-top: -15px; width: 26px; height: 30px; transform: translate3d(1635px, 87px, 0px); z-index: 87;" title="Stone Talus (Senior)" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/hinox.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(1707px, 578px, 0px); z-index: 578;" title="Hinox" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/statue.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -12px; margin-top: -15px; width: 24px; height: 30px; transform: translate3d(1480px, 446px, 0px); z-index: 446;" title="Goddess Statue" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/raft.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13.5px; margin-top: -15px; width: 27px; height: 30px; transform: translate3d(1077px, 593px, 0px); z-index: 593;" title="Raft" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/raft.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -13.5px; margin-top: -15px; width: 27px; height: 30px; transform: translate3d(1445px, 91px, 0px); z-index: 91;" title="Raft" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/pot.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -13.5px; width: 30px; height: 27px; transform: translate3d(1127px, 40px, 0px); z-index: 40;" title="Cooking Pot" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/pot.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -13.5px; width: 30px; height: 27px; transform: translate3d(1186px, 99px, 0px); z-index: 99;" title="Cooking Pot" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/pot.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -13.5px; width: 30px; height: 27px; transform: translate3d(1391px, 139px, 0px); z-index: 139;" title="Cooking Pot" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/pot.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -13.5px; width: 30px; height: 27px; transform: translate3d(1393px, 212px, 0px); z-index: 212;" title="Cooking Pot" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/pot.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -13.5px; width: 30px; height: 27px; transform: translate3d(1437px, 602px, 0px); z-index: 602;" title="Cooking Pot" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/pot.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -13.5px; width: 30px; height: 27px; transform: translate3d(1508px, 238px, 0px); z-index: 238;" title="Cooking Pot" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/pot.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -13.5px; width: 30px; height: 27px; transform: translate3d(1523px, 80px, 0px); z-index: 80;" title="Cooking Pot" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/pot.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -13.5px; width: 30px; height: 27px; transform: translate3d(1562px, 210px, 0px); z-index: 210;" title="Cooking Pot" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/pot.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -13.5px; width: 30px; height: 27px; transform: translate3d(1724px, 100px, 0px); z-index: 100;" title="Cooking Pot" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/pot.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -13.5px; width: 30px; height: 27px; transform: translate3d(1774px, 231px, 0px); z-index: 231;" title="Cooking Pot" alt="" tabindex="0"><div class="leaflet-marker-icon zd-void-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -6px; margin-top: -6px; width: 12px; height: 12px; transform: translate3d(1696px, 36px, 0px); z-index: 36;" title="West Necluda" tabindex="0"></div><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1566px, 160px, 0px); z-index: 160;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1299px, 162px, 0px); z-index: 162;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1242px, 342px, 0px); z-index: 342;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1729px, 640px, 0px); z-index: 640;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1636px, 504px, 0px); z-index: 504;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1476px, 218px, 0px); z-index: 218;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1364px, 147px, 0px); z-index: 147;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1200px, 149px, 0px); z-index: 149;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1671px, 192px, 0px); z-index: 192;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1378px, 84px, 0px); z-index: 84;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1468px, 80px, 0px); z-index: 80;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1080px, 417px, 0px); z-index: 417;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1128px, 129px, 0px); z-index: 129;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1094px, 124px, 0px); z-index: 124;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1664px, 237px, 0px); z-index: 237;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1043px, 214px, 0px); z-index: 214;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1123px, 241px, 0px); z-index: 241;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1344px, 471px, 0px); z-index: 471;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1070px, 146px, 0px); z-index: 146;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1154px, 119px, 0px); z-index: 119;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1158px, 66px, 0px); z-index: 66;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1086px, 60px, 0px); z-index: 60;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1731px, 107px, 0px); z-index: 107;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1592px, 211px, 0px); z-index: 211;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1448px, 312px, 0px); z-index: 312;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1394px, 163px, 0px); z-index: 163;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1317px, 215px, 0px); z-index: 215;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1460px, 479px, 0px); z-index: 479;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1300px, 512px, 0px); z-index: 512;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1336px, 604px, 0px); z-index: 604;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1735px, 403px, 0px); z-index: 403;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1152px, 699px, 0px); z-index: 699;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1129px, 718px, 0px); z-index: 718;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1143px, 569px, 0px); z-index: 569;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1280px, 340px, 0px); z-index: 340;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1185px, 394px, 0px); z-index: 394;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1204px, 228px, 0px); z-index: 228;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1696px, 484px, 0px); z-index: 484;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1394px, 746px, 0px); z-index: 746;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1347px, 702px, 0px); z-index: 702;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1250px, 705px, 0px); z-index: 705;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1211px, 682px, 0px); z-index: 682;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1125px, 658px, 0px); z-index: 658;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1059px, 317px, 0px); z-index: 317;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1150px, 302px, 0px); z-index: 302;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1220px, 265px, 0px); z-index: 265;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1354px, 417px, 0px); z-index: 417;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1350px, 475px, 0px); z-index: 475;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1382px, 517px, 0px); z-index: 517;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1228px, 548px, 0px); z-index: 548;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1184px, 468px, 0px); z-index: 468;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1420px, 440px, 0px); z-index: 440;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1487px, 462px, 0px); z-index: 462;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1437px, 549px, 0px); z-index: 549;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1628px, 692px, 0px); z-index: 692;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1773px, 450px, 0px); z-index: 450;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1704px, 493px, 0px); z-index: 493;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1497px, 364px, 0px); z-index: 364;" title="Korok Seed" alt="" tabindex="0"><img src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/seed.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -15px; margin-top: -14px; width: 30px; height: 28px; transform: translate3d(1117px, 757px, 0px); z-index: 757;" title="Korok Seed" alt="" tabindex="0"></div><div class="leaflet-pane leaflet-tooltip-pane"><div class="leaflet-tooltip zd-location-label leaflet-zoom-animated leaflet-tooltip-center" style="opacity: 0.9; transform: translate3d(734px, -460px, 0px);">Hyrule Field</div><div class="leaflet-tooltip zd-location-label leaflet-zoom-animated leaflet-tooltip-center" style="opacity: 0.9; transform: translate3d(905px, 502px, 0px);">Lake Hylia</div><div class="leaflet-tooltip zd-location-label leaflet-zoom-animated leaflet-tooltip-center" style="opacity: 0.9; transform: translate3d(1615px, 12px, 0px);">West Necluda</div></div><div class="leaflet-pane leaflet-popup-pane"></div><div class="leaflet-proxy leaflet-zoom-animated"></div></div><div class="leaflet-control-container"><div class="leaflet-top leaflet-left"><div class="zd-control leaflet-control"><div class="zd-control__button"><svg class="svg-inline--fa fa-search fa-w-16" aria-hidden="true" data-prefix="fa" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg><!-- <i class="fa fa-search"></i> --></div><div class="zd-control__content"><div class="zd-search"><input class="zd-search__searchbox" type="text" placeholder="Search"><ul class="zd-search__results"></ul></div></div></div><div class="zd-control leaflet-control"><div class="zd-control__button"><svg class="svg-inline--fa fa-cog fa-w-16" aria-hidden="true" data-prefix="fa" data-icon="cog" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M444.788 291.1l42.616 24.599c4.867 2.809 7.126 8.618 5.459 13.985-11.07 35.642-29.97 67.842-54.689 94.586a12.016 12.016 0 0 1-14.832 2.254l-42.584-24.595a191.577 191.577 0 0 1-60.759 35.13v49.182a12.01 12.01 0 0 1-9.377 11.718c-34.956 7.85-72.499 8.256-109.219.007-5.49-1.233-9.403-6.096-9.403-11.723v-49.184a191.555 191.555 0 0 1-60.759-35.13l-42.584 24.595a12.016 12.016 0 0 1-14.832-2.254c-24.718-26.744-43.619-58.944-54.689-94.586-1.667-5.366.592-11.175 5.459-13.985L67.212 291.1a193.48 193.48 0 0 1 0-70.199l-42.616-24.599c-4.867-2.809-7.126-8.618-5.459-13.985 11.07-35.642 29.97-67.842 54.689-94.586a12.016 12.016 0 0 1 14.832-2.254l42.584 24.595a191.577 191.577 0 0 1 60.759-35.13V25.759a12.01 12.01 0 0 1 9.377-11.718c34.956-7.85 72.499-8.256 109.219-.007 5.49 1.233 9.403 6.096 9.403 11.723v49.184a191.555 191.555 0 0 1 60.759 35.13l42.584-24.595a12.016 12.016 0 0 1 14.832 2.254c24.718 26.744 43.619 58.944 54.689 94.586 1.667 5.366-.592 11.175-5.459 13.985L444.788 220.9a193.485 193.485 0 0 1 0 70.2zM336 256c0-44.112-35.888-80-80-80s-80 35.888-80 80 35.888 80 80 80 80-35.888 80-80z"></path></svg><!-- <i class="fa fa-cog"></i> --></div><div class="zd-control__content"><table class="zd-settings"><tr class="zd-settings__setting"><td class="" colspan="3"><div class="selectable">Login</div></td></tr><tr class="zd-settings__setting"><td class="zd-settings__button selectable selected">Show</td><td class="zd-settings__button selectable">Hide</td><th class="zd-settings__label">Master Mode</th></tr><tr class="zd-settings__setting"><td class="zd-settings__button selectable selected">Show</td><td class="zd-settings__button selectable">Hide</td><th class="zd-settings__label">DLC</th></tr><tr class="zd-settings__setting"><td class="zd-settings__button selectable">Show</td><td class="zd-settings__button selectable selected">Hide</td><th class="zd-settings__label">Completed</th></tr><tr class="zd-settings__setting"><td class="selectable" colspan="3">Clear completion data</td></tr></table></div></div><div class="leaflet-control-zoom leaflet-bar leaflet-control"><a class="leaflet-control-zoom-in" href="#" title="Zoom in" role="button" aria-label="Zoom in">+</a><a class="leaflet-control-zoom-out" href="#" title="Zoom out" role="button" aria-label="Zoom out">−</a></div></div><div class="leaflet-top leaflet-right"><div class="zd-control zd-legend zd-legend--landscape leaflet-control"><ul class="zd-legend__categories"><li class=""><div class="zd-legend__all selectable selected">All</div><div class="zd-legend__none selectable">None</div></li><li class="zd-legend__category selectable" data-position="10" style="background-image: url(&quot;markers/tower.png&quot;); background-position: 11px center; background-size: 28px;">Sheikah Tower</li><li class="zd-legend__category selectable" data-position="11" style="background-image: url(&quot;markers/shrine.png&quot;); background-position: 12px center; background-size: 26px;">Shrine</li><li class="zd-legend__category selectable" data-position="12" style="background-image: url(&quot;markers/lab.png&quot;); background-position: 9.5px center; background-size: 31px;">Tech Lab</li><li class="zd-legend__category selectable" data-position="20" style="background-image: url(&quot;markers/seed.png&quot;); background-position: 10px center; background-size: 30px;">Korok Seed</li><li class="zd-legend__category selectable" data-position="30" style="background-image: url(&quot;markers/mainquest.png&quot;); background-position: 0px center; background-size: 50px;">Main Quest</li><li class="zd-legend__category selectable" data-position="31" style="background-image: url(&quot;markers/shrinequest.png&quot;); background-position: 10px center; background-size: 30px;">Shrine Quest</li><li class="zd-legend__category selectable" data-position="32" style="background-image: url(&quot;markers/sidequest.png&quot;); background-position: 10px center; background-size: 30px;">Side Quest</li><li class="zd-legend__category selectable" data-position="33" style="background-image: url(&quot;markers/memory.png&quot;); background-position: 10px center; background-size: 30px;">Memory</li><li class="zd-legend__category selectable" data-position="34" style="background-image: url(&quot;markers/objective.png&quot;); background-position: 15px center; background-size: 20px;">Quest Objective</li><li class="zd-legend__category selectable" data-position="40" style="background-image: url(&quot;markers/stable.png&quot;); background-position: 10px center; background-size: 30px;">Stable</li><li class="zd-legend__category selectable" data-position="41" style="background-image: url(&quot;markers/village.png&quot;); background-position: 10px center; background-size: 30px;">Village</li><li class="zd-legend__category selectable" data-position="42" style="background-image: url(&quot;markers/inn.png&quot;); background-position: 10px center; background-size: 30px;">Inn</li><li class="zd-legend__category selectable" data-position="43" style="background-image: url(&quot;markers/store.png&quot;); background-position: 10px center; background-size: 30px;">General Store</li><li class="zd-legend__category selectable" data-position="44" style="background-image: url(&quot;markers/armor.png&quot;); background-position: 10px center; background-size: 30px;">Armor Shop</li><li class="zd-legend__category selectable" data-position="45" style="background-image: url(&quot;markers/dye.png&quot;); background-position: 10px center; background-size: 30px;">Dye Shop</li><li class="zd-legend__category selectable" data-position="46" style="background-image: url(&quot;markers/jewelry.png&quot;); background-position: 10px center; background-size: 30px;">Jewelry Shop</li><li class="zd-legend__category selectable" data-position="47" style="background-image: url(&quot;markers/settlement.png&quot;); background-position: 11.5px center; background-size: 27px;">Settlement</li><li class="zd-legend__category selectable" data-position="50" style="background-image: url(&quot;markers/fountain.png&quot;); background-position: 10.5px center; background-size: 29px;">Great Fairy</li><li class="zd-legend__category selectable" data-position="51" style="background-image: url(&quot;markers/statue.png&quot;); background-position: 13px center; background-size: 24px;">Goddess Statue</li><li class="zd-legend__category selectable" data-position="52" style="background-image: url(&quot;markers/pot.png&quot;); background-position: 10px center; background-size: 30px;">Cooking Pot</li><li class="zd-legend__category selectable" data-position="53" style="background-image: url(&quot;markers/raft.png&quot;); background-position: 11.5px center; background-size: 27px;">Raft</li><li class="zd-legend__category selectable" data-position="54" style="background-image: url(&quot;markers/talus.png&quot;); background-position: 12px center; background-size: 26px;">Stone Talus</li><li class="zd-legend__category selectable" data-position="55" style="background-image: url(&quot;markers/hinox.png&quot;); background-position: 10px center; background-size: 30px;">Hinox</li><li class="zd-legend__category selectable" data-position="56" style="background-image: url(&quot;markers/lynel.png&quot;); background-position: 10.5px center; background-size: 29px;">Lynel</li><li class="zd-legend__category selectable" data-position="57" style="background-image: url(&quot;markers/molduga.png&quot;); background-position: 10.5px center; background-size: 29px;">Molduga</li><li class="zd-legend__category selectable" data-position="58" style="background-image: url(&quot;markers/guardian.png&quot;); background-position: 9px center; background-size: 32px;">Guardian</li><li class="zd-legend__category selectable" data-position="59" style="background-image: url(&quot;markers/treasure.png&quot;); background-position: 10px center; background-size: 30px;">Treasure</li></ul></div></div><div class="leaflet-bottom leaflet-left"></div><div class="leaflet-bottom leaflet-right"><div class="zd-control zd-legend zd-legend--portrait leaflet-control"><h3 class="zd-legend__header">Legend</h3><ul class="zd-legend__categories"><li class=""><div class="zd-legend__all selectable selected">All</div><div class="zd-legend__none selectable">None</div></li><li class="zd-legend__category selectable" data-position="10" style="background-image: url(&quot;markers/tower.png&quot;); background-position: 11px center; background-size: 28px;">Sheikah Tower</li><li class="zd-legend__category selectable" data-position="11" style="background-image: url(&quot;markers/shrine.png&quot;); background-position: 12px center; background-size: 26px;">Shrine</li><li class="zd-legend__category selectable" data-position="12" style="background-image: url(&quot;markers/lab.png&quot;); background-position: 9.5px center; background-size: 31px;">Tech Lab</li><li class="zd-legend__category selectable" data-position="20" style="background-image: url(&quot;markers/seed.png&quot;); background-position: 10px center; background-size: 30px;">Korok Seed</li><li class="zd-legend__category selectable" data-position="30" style="background-image: url(&quot;markers/mainquest.png&quot;); background-position: 0px center; background-size: 50px;">Main Quest</li><li class="zd-legend__category selectable" data-position="31" style="background-image: url(&quot;markers/shrinequest.png&quot;); background-position: 10px center; background-size: 30px;">Shrine Quest</li><li class="zd-legend__category selectable" data-position="32" style="background-image: url(&quot;markers/sidequest.png&quot;); background-position: 10px center; background-size: 30px;">Side Quest</li><li class="zd-legend__category selectable" data-position="33" style="background-image: url(&quot;markers/memory.png&quot;); background-position: 10px center; background-size: 30px;">Memory</li><li class="zd-legend__category selectable" data-position="34" style="background-image: url(&quot;markers/objective.png&quot;); background-position: 15px center; background-size: 20px;">Quest Objective</li><li class="zd-legend__category selectable" data-position="40" style="background-image: url(&quot;markers/stable.png&quot;); background-position: 10px center; background-size: 30px;">Stable</li><li class="zd-legend__category selectable" data-position="41" style="background-image: url(&quot;markers/village.png&quot;); background-position: 10px center; background-size: 30px;">Village</li><li class="zd-legend__category selectable" data-position="42" style="background-image: url(&quot;markers/inn.png&quot;); background-position: 10px center; background-size: 30px;">Inn</li><li class="zd-legend__category selectable" data-position="43" style="background-image: url(&quot;markers/store.png&quot;); background-position: 10px center; background-size: 30px;">General Store</li><li class="zd-legend__category selectable" data-position="44" style="background-image: url(&quot;markers/armor.png&quot;); background-position: 10px center; background-size: 30px;">Armor Shop</li><li class="zd-legend__category selectable" data-position="45" style="background-image: url(&quot;markers/dye.png&quot;); background-position: 10px center; background-size: 30px;">Dye Shop</li><li class="zd-legend__category selectable" data-position="46" style="background-image: url(&quot;markers/jewelry.png&quot;); background-position: 10px center; background-size: 30px;">Jewelry Shop</li><li class="zd-legend__category selectable" data-position="47" style="background-image: url(&quot;markers/settlement.png&quot;); background-position: 11.5px center; background-size: 27px;">Settlement</li><li class="zd-legend__category selectable" data-position="50" style="background-image: url(&quot;markers/fountain.png&quot;); background-position: 10.5px center; background-size: 29px;">Great Fairy</li><li class="zd-legend__category selectable" data-position="51" style="background-image: url(&quot;markers/statue.png&quot;); background-position: 13px center; background-size: 24px;">Goddess Statue</li><li class="zd-legend__category selectable" data-position="52" style="background-image: url(&quot;markers/pot.png&quot;); background-position: 10px center; background-size: 30px;">Cooking Pot</li><li class="zd-legend__category selectable" data-position="53" style="background-image: url(&quot;markers/raft.png&quot;); background-position: 11.5px center; background-size: 27px;">Raft</li><li class="zd-legend__category selectable" data-position="54" style="background-image: url(&quot;markers/talus.png&quot;); background-position: 12px center; background-size: 26px;">Stone Talus</li><li class="zd-legend__category selectable" data-position="55" style="background-image: url(&quot;markers/hinox.png&quot;); background-position: 10px center; background-size: 30px;">Hinox</li><li class="zd-legend__category selectable" data-position="56" style="background-image: url(&quot;markers/lynel.png&quot;); background-position: 10.5px center; background-size: 29px;">Lynel</li><li class="zd-legend__category selectable" data-position="57" style="background-image: url(&quot;markers/molduga.png&quot;); background-position: 10.5px center; background-size: 29px;">Molduga</li><li class="zd-legend__category selectable" data-position="58" style="background-image: url(&quot;markers/guardian.png&quot;); background-position: 9px center; background-size: 32px;">Guardian</li><li class="zd-legend__category selectable" data-position="59" style="background-image: url(&quot;markers/treasure.png&quot;); background-position: 10px center; background-size: 30px;">Treasure</li></ul></div></div></div><div class="modal leaflet-control-window-wrapper"><div class="leaflet-control leaflet-control-window control-window" style="max-width:600px"><div class="titlebar"><h2 class="title"></h2></div><div class="content"></div><div class="promptButtons"></div></div></div></div>
+    <script type="text/javascript" async="" src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/ga.js"></script><script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-1872892-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+    </script>
+  <script type="text/javascript" src="Breath%20of%20the%20Wild%20Interactive%20Map_fichiers/bundle.js"></script>
+
+</body></html>
